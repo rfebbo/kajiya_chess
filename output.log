@@ -1,0 +1,1247 @@
+[2022-01-08 12:51:16][mio::poll][TRACE] registering event source with poller: token=Token(0), interests=READABLE
+[2022-01-08 12:51:16][winit::platform_impl::platform::x11::window][INFO] Guessed window scale factor: 1.1979166666666667
+[2022-01-08 12:51:16][winit::platform_impl::platform::x11::window][DEBUG] Calculated physical dimensions: 3067x1725
+[2022-01-08 12:51:16][kajiya_simple::main_loop][INFO] Internal rendering extent: 2560x1440
+[2022-01-08 12:51:16][kajiya_backend::vulkan::instance][INFO] Created a Vulkan instance
+[2022-01-08 12:51:16][kajiya_backend::vulkan][INFO] Available physical devices: [
+    "NVIDIA GeForce RTX 3090",
+]
+[2022-01-08 12:51:16][kajiya_backend::vulkan][INFO] Selected physical device: PhysicalDevice { PhysicalDeviceProperties {
+    api_version: 4202682,
+    driver_version: 2076901376,
+    vendor_id: 4318,
+    device_id: 8708,
+    device_type: DISCRETE_GPU,
+    device_name: "NVIDIA GeForce RTX 3090",
+    pipeline_cache_uuid: [
+        56,
+        5,
+        221,
+        175,
+        130,
+        239,
+        231,
+        52,
+        45,
+        58,
+        20,
+        185,
+        58,
+        96,
+        71,
+        145,
+    ],
+    limits: PhysicalDeviceLimits {
+        max_image_dimension1_d: 32768,
+        max_image_dimension2_d: 32768,
+        max_image_dimension3_d: 16384,
+        max_image_dimension_cube: 32768,
+        max_image_array_layers: 2048,
+        max_texel_buffer_elements: 134217728,
+        max_uniform_buffer_range: 65536,
+        max_storage_buffer_range: 4294967295,
+        max_push_constants_size: 256,
+        max_memory_allocation_count: 4294967295,
+        max_sampler_allocation_count: 4000,
+        buffer_image_granularity: 1024,
+        sparse_address_space_size: 1099511627775,
+        max_bound_descriptor_sets: 32,
+        max_per_stage_descriptor_samplers: 1048576,
+        max_per_stage_descriptor_uniform_buffers: 1048576,
+        max_per_stage_descriptor_storage_buffers: 1048576,
+        max_per_stage_descriptor_sampled_images: 1048576,
+        max_per_stage_descriptor_storage_images: 1048576,
+        max_per_stage_descriptor_input_attachments: 1048576,
+        max_per_stage_resources: 4294967295,
+        max_descriptor_set_samplers: 1048576,
+        max_descriptor_set_uniform_buffers: 1048576,
+        max_descriptor_set_uniform_buffers_dynamic: 15,
+        max_descriptor_set_storage_buffers: 1048576,
+        max_descriptor_set_storage_buffers_dynamic: 16,
+        max_descriptor_set_sampled_images: 1048576,
+        max_descriptor_set_storage_images: 1048576,
+        max_descriptor_set_input_attachments: 1048576,
+        max_vertex_input_attributes: 32,
+        max_vertex_input_bindings: 32,
+        max_vertex_input_attribute_offset: 2047,
+        max_vertex_input_binding_stride: 2048,
+        max_vertex_output_components: 128,
+        max_tessellation_generation_level: 64,
+        max_tessellation_patch_size: 32,
+        max_tessellation_control_per_vertex_input_components: 128,
+        max_tessellation_control_per_vertex_output_components: 128,
+        max_tessellation_control_per_patch_output_components: 120,
+        max_tessellation_control_total_output_components: 4216,
+        max_tessellation_evaluation_input_components: 128,
+        max_tessellation_evaluation_output_components: 128,
+        max_geometry_shader_invocations: 32,
+        max_geometry_input_components: 128,
+        max_geometry_output_components: 128,
+        max_geometry_output_vertices: 1024,
+        max_geometry_total_output_components: 1024,
+        max_fragment_input_components: 128,
+        max_fragment_output_attachments: 8,
+        max_fragment_dual_src_attachments: 1,
+        max_fragment_combined_output_resources: 4294967295,
+        max_compute_shared_memory_size: 49152,
+        max_compute_work_group_count: [
+            2147483647,
+            65535,
+            65535,
+        ],
+        max_compute_work_group_invocations: 1024,
+        max_compute_work_group_size: [
+            1024,
+            1024,
+            64,
+        ],
+        sub_pixel_precision_bits: 8,
+        sub_texel_precision_bits: 8,
+        mipmap_precision_bits: 8,
+        max_draw_indexed_index_value: 4294967295,
+        max_draw_indirect_count: 4294967295,
+        max_sampler_lod_bias: 15.0,
+        max_sampler_anisotropy: 16.0,
+        max_viewports: 16,
+        max_viewport_dimensions: [
+            32768,
+            32768,
+        ],
+        viewport_bounds_range: [
+            -65536.0,
+            65536.0,
+        ],
+        viewport_sub_pixel_bits: 8,
+        min_memory_map_alignment: 64,
+        min_texel_buffer_offset_alignment: 16,
+        min_uniform_buffer_offset_alignment: 64,
+        min_storage_buffer_offset_alignment: 16,
+        min_texel_offset: -8,
+        max_texel_offset: 7,
+        min_texel_gather_offset: -32,
+        max_texel_gather_offset: 31,
+        min_interpolation_offset: -0.5,
+        max_interpolation_offset: 0.4375,
+        sub_pixel_interpolation_offset_bits: 4,
+        max_framebuffer_width: 32768,
+        max_framebuffer_height: 32768,
+        max_framebuffer_layers: 2048,
+        framebuffer_color_sample_counts: TYPE_1 | TYPE_2 | TYPE_4 | TYPE_8,
+        framebuffer_depth_sample_counts: TYPE_1 | TYPE_2 | TYPE_4 | TYPE_8,
+        framebuffer_stencil_sample_counts: TYPE_1 | TYPE_2 | TYPE_4 | TYPE_8 | TYPE_16,
+        framebuffer_no_attachments_sample_counts: TYPE_1 | TYPE_2 | TYPE_4 | TYPE_8 | TYPE_16,
+        max_color_attachments: 8,
+        sampled_image_color_sample_counts: TYPE_1 | TYPE_2 | TYPE_4 | TYPE_8,
+        sampled_image_integer_sample_counts: TYPE_1 | TYPE_2 | TYPE_4 | TYPE_8,
+        sampled_image_depth_sample_counts: TYPE_1 | TYPE_2 | TYPE_4 | TYPE_8,
+        sampled_image_stencil_sample_counts: TYPE_1 | TYPE_2 | TYPE_4 | TYPE_8 | TYPE_16,
+        storage_image_sample_counts: TYPE_1 | TYPE_2 | TYPE_4 | TYPE_8,
+        max_sample_mask_words: 1,
+        timestamp_compute_and_graphics: 1,
+        timestamp_period: 1.0,
+        max_clip_distances: 8,
+        max_cull_distances: 8,
+        max_combined_clip_and_cull_distances: 8,
+        discrete_queue_priorities: 2,
+        point_size_range: [
+            1.0,
+            2047.9375,
+        ],
+        line_width_range: [
+            1.0,
+            64.0,
+        ],
+        point_size_granularity: 0.0625,
+        line_width_granularity: 0.0625,
+        strict_lines: 1,
+        standard_sample_locations: 1,
+        optimal_buffer_copy_offset_alignment: 1,
+        optimal_buffer_copy_row_pitch_alignment: 1,
+        non_coherent_atom_size: 64,
+    },
+    sparse_properties: PhysicalDeviceSparseProperties {
+        residency_standard2_d_block_shape: 1,
+        residency_standard2_d_multisample_block_shape: 1,
+        residency_standard3_d_block_shape: 1,
+        residency_aligned_mip_size: 0,
+        residency_non_resident_strict: 1,
+    },
+} }
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][DEBUG] Extension properties:
+[
+    ExtensionProperties {
+        extension_name: "VK_KHR_16bit_storage",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_8bit_storage",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_acceleration_structure",
+        spec_version: 11,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_bind_memory2",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_buffer_device_address",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_copy_commands2",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_create_renderpass2",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_dedicated_allocation",
+        spec_version: 3,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_deferred_host_operations",
+        spec_version: 4,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_depth_stencil_resolve",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_descriptor_update_template",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_device_group",
+        spec_version: 4,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_draw_indirect_count",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_driver_properties",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_external_fence",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_external_fence_fd",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_external_memory",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_external_memory_fd",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_external_semaphore",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_external_semaphore_fd",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_fragment_shading_rate",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_get_memory_requirements2",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_image_format_list",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_imageless_framebuffer",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_maintenance1",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_maintenance2",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_maintenance3",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_multiview",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_pipeline_executable_properties",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_pipeline_library",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_present_id",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_present_wait",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_push_descriptor",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_ray_query",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_ray_tracing_pipeline",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_relaxed_block_layout",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_sampler_mirror_clamp_to_edge",
+        spec_version: 3,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_sampler_ycbcr_conversion",
+        spec_version: 14,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_separate_depth_stencil_layouts",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_shader_atomic_int64",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_shader_clock",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_shader_draw_parameters",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_shader_float16_int8",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_shader_float_controls",
+        spec_version: 4,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_shader_non_semantic_info",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_shader_subgroup_extended_types",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_shader_subgroup_uniform_control_flow",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_shader_terminate_invocation",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_spirv_1_4",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_storage_buffer_storage_class",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_swapchain",
+        spec_version: 70,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_swapchain_mutable_format",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_synchronization2",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_timeline_semaphore",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_uniform_buffer_standard_layout",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_variable_pointers",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_vulkan_memory_model",
+        spec_version: 3,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_workgroup_memory_explicit_layout",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_KHR_zero_initialize_workgroup_memory",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_4444_formats",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_blend_operation_advanced",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_buffer_device_address",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_calibrated_timestamps",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_color_write_enable",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_conditional_rendering",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_conservative_rasterization",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_custom_border_color",
+        spec_version: 12,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_depth_clip_enable",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_depth_range_unrestricted",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_descriptor_indexing",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_discard_rectangles",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_display_control",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_extended_dynamic_state",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_extended_dynamic_state2",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_external_memory_host",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_fragment_shader_interlock",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_global_priority",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_global_priority_query",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_host_query_reset",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_image_robustness",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_index_type_uint8",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_inline_uniform_block",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_line_rasterization",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_memory_budget",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_multi_draw",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_pci_bus_info",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_physical_device_drm",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_pipeline_creation_cache_control",
+        spec_version: 3,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_pipeline_creation_feedback",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_post_depth_coverage",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_private_data",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_provoking_vertex",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_queue_family_foreign",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_robustness2",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_sample_locations",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_sampler_filter_minmax",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_scalar_block_layout",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_separate_stencil_usage",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_shader_atomic_float",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_shader_demote_to_helper_invocation",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_shader_image_atomic_int64",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_shader_subgroup_ballot",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_shader_subgroup_vote",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_shader_viewport_index_layer",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_subgroup_size_control",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_texel_buffer_alignment",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_tooling_info",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_transform_feedback",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_vertex_attribute_divisor",
+        spec_version: 3,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_vertex_input_dynamic_state",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_ycbcr_2plane_444_formats",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_EXT_ycbcr_image_arrays",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_clip_space_w_scaling",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_compute_shader_derivatives",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_cooperative_matrix",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_corner_sampled_image",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_coverage_reduction_mode",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_cuda_kernel_launch",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_dedicated_allocation",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_dedicated_allocation_image_aliasing",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_device_diagnostic_checkpoints",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_device_diagnostics_config",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_device_generated_commands",
+        spec_version: 3,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_fill_rectangle",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_fragment_coverage_to_color",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_fragment_shader_barycentric",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_fragment_shading_rate_enums",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_framebuffer_mixed_samples",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_geometry_shader_passthrough",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_inherited_viewport_scissor",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_mesh_shader",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_ray_tracing",
+        spec_version: 3,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_ray_tracing_motion_blur",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_representative_fragment_test",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_sample_mask_override_coverage",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_scissor_exclusive",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_shader_image_footprint",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_shader_sm_builtins",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_shader_subgroup_partitioned",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_shading_rate_image",
+        spec_version: 3,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_viewport_array2",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NV_viewport_swizzle",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NVX_binary_import",
+        spec_version: 1,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NVX_image_view_handle",
+        spec_version: 2,
+    },
+    ExtensionProperties {
+        extension_name: "VK_NVX_multiview_per_view_attributes",
+        spec_version: 1,
+    },
+]
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][DEBUG] PhysicalDeviceScalarBlockLayoutFeatures {
+    s_type: PHYSICAL_DEVICE_SCALAR_BLOCK_LAYOUT_FEATURES,
+    p_next: 0x0000000000000000,
+    scalar_block_layout: 1,
+}
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][DEBUG] PhysicalDeviceDescriptorIndexingFeatures {
+    s_type: PHYSICAL_DEVICE_DESCRIPTOR_INDEXING_FEATURES,
+    p_next: 0x00007ffcd50b3970,
+    shader_input_attachment_array_dynamic_indexing: 1,
+    shader_uniform_texel_buffer_array_dynamic_indexing: 1,
+    shader_storage_texel_buffer_array_dynamic_indexing: 1,
+    shader_uniform_buffer_array_non_uniform_indexing: 1,
+    shader_sampled_image_array_non_uniform_indexing: 1,
+    shader_storage_buffer_array_non_uniform_indexing: 1,
+    shader_storage_image_array_non_uniform_indexing: 1,
+    shader_input_attachment_array_non_uniform_indexing: 1,
+    shader_uniform_texel_buffer_array_non_uniform_indexing: 1,
+    shader_storage_texel_buffer_array_non_uniform_indexing: 1,
+    descriptor_binding_uniform_buffer_update_after_bind: 1,
+    descriptor_binding_sampled_image_update_after_bind: 1,
+    descriptor_binding_storage_image_update_after_bind: 1,
+    descriptor_binding_storage_buffer_update_after_bind: 1,
+    descriptor_binding_uniform_texel_buffer_update_after_bind: 1,
+    descriptor_binding_storage_texel_buffer_update_after_bind: 1,
+    descriptor_binding_update_unused_while_pending: 1,
+    descriptor_binding_partially_bound: 1,
+    descriptor_binding_variable_descriptor_count: 1,
+    runtime_descriptor_array: 1,
+}
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][DEBUG] PhysicalDeviceImagelessFramebufferFeatures {
+    s_type: PHYSICAL_DEVICE_IMAGELESS_FRAMEBUFFER_FEATURES,
+    p_next: 0x00007ffcd50b3988,
+    imageless_framebuffer: 1,
+}
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][DEBUG] PhysicalDeviceShaderFloat16Int8Features {
+    s_type: PHYSICAL_DEVICE_SHADER_FLOAT16_INT8_FEATURES,
+    p_next: 0x00007ffcd50b39e8,
+    shader_float16: 1,
+    shader_int8: 1,
+}
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][DEBUG] PhysicalDeviceVulkanMemoryModelFeatures {
+    s_type: PHYSICAL_DEVICE_VULKAN_MEMORY_MODEL_FEATURES,
+    p_next: 0x00007ffcd50b3a00,
+    vulkan_memory_model: 1,
+    vulkan_memory_model_device_scope: 1,
+    vulkan_memory_model_availability_visibility_chains: 1,
+}
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][DEBUG] PhysicalDeviceBufferDeviceAddressFeatures {
+    s_type: PHYSICAL_DEVICE_BUFFER_DEVICE_ADDRESS_FEATURES,
+    p_next: 0x00007ffcd50b3a18,
+    buffer_device_address: 1,
+    buffer_device_address_capture_replay: 0,
+    buffer_device_address_multi_device: 1,
+}
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][INFO] Created a Vulkan device
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type count: 11
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory heap count: 3
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[0]: prop flags: 0x0, heap[1]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[1]: prop flags: 0x0, heap[1]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[2]: prop flags: 0x0, heap[1]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[3]: prop flags: 0x0, heap[1]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[4]: prop flags: 0x0, heap[1]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[5]: prop flags: 0x0, heap[1]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[6]: prop flags: 0x0, heap[1]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[7]: prop flags: 0x1, heap[0]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[8]: prop flags: 0x6, heap[1]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[9]: prop flags: 0xe, heap[1]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] memory type[10]: prop flags: 0x7, heap[2]
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] heap[0] flags: 0x1, size: 24576 MiB
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] heap[1] flags: 0x0, size: 24082 MiB
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] heap[2] flags: 0x1, size: 246 MiB
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 16384 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 16384 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan][INFO] Available surface formats: [
+    SurfaceFormatKHR {
+        format: B8G8R8A8_UNORM,
+        color_space: SRGB_NONLINEAR,
+    },
+    SurfaceFormatKHR {
+        format: B8G8R8A8_SRGB,
+        color_space: SRGB_NONLINEAR,
+    },
+]
+[2022-01-08 12:51:16][kajiya_backend::vulkan::swapchain][INFO] Swapchain image count: 3
+[2022-01-08 12:51:16][kajiya_backend::vulkan::swapchain][INFO] Presentation mode: FIFO_RELAXED
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 28672 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 536870912 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 150994944 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 524288 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 524288 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 524288 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 524288 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 262144 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 262144 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 524288 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 524288 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 524288 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 524288 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 262144 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 262144 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [64, 64, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 16384 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][mio::poll][TRACE] registering with poller
+[2022-01-08 12:51:16][mio::poll][TRACE] registering with poller
+[2022-01-08 12:51:16][mio::poll][TRACE] registering with poller
+[2022-01-08 12:51:16][kajiya_asset::image][INFO] Loaded image: (256, 256) Rgba8
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_UNORM, extent: [256, 256, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 262144 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 262144 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::ray_tracing][INFO] Acceleration structure size: 768, scratch size: 512
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 33554432 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 33554432 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | COLOR_ATTACHMENT, flags: , format: R8G8B8A8_UNORM, extent: [3067, 1725, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 22020096 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_UNORM, extent: [2048, 2048, 1], tiling: OPTIMAL, mip_levels: 12, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 22371328 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_UNORM, extent: [1, 1, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_UNORM, extent: [1, 1, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_SRGB, extent: [2048, 2048, 1], tiling: OPTIMAL, mip_levels: 12, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 22369792 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_SRGB, extent: [2048, 2048, 1], tiling: OPTIMAL, mip_levels: 12, array_elements: 1 }
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_SRGB, extent: [2048, 2048, 1], tiling: OPTIMAL, mip_levels: 12, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 512 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_UNORM, extent: [1, 1, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_SRGB, extent: [2048, 2048, 1], tiling: OPTIMAL, mip_levels: 12, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 512 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 22371328 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 22371328 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 22371328 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 512 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 22371328 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 22369792 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 22369792 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 22369792 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 22369792 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 16777216 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::ray_tracing][INFO] Acceleration structure size: 187008, scratch size: 55040
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 187136 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_UNORM, extent: [1, 1, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 512 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_UNORM, extent: [1, 1, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED, flags: , format: R8G8B8A8_UNORM, extent: [1, 1, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 512 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 512 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 16777216 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::ray_tracing][INFO] Acceleration structure size: 1046272, scratch size: 314624
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `buffer` of 1046272 bytes with an alignment of 256.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: TRANSFER_DST | SAMPLED | STORAGE, flags: , format: R32G32B32A32_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 62914560 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex3d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [384, 64, 64], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 12582912 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex3d, usage: SAMPLED | STORAGE, flags: , format: B10G11R11_UFLOAT_PACK32, extent: [3456, 64, 64], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 56623104 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex3d, usage: SAMPLED | STORAGE, flags: , format: B10G11R11_UFLOAT_PACK32, extent: [896, 64, 64], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 14680064 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R32_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:16][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:16][kajiya_backend::rust_shader_compiler][INFO] Building Rust-GPU shaders in the background...
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 30.063264ms for spatial_filter
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 41.371636ms for filter_prob2
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 48.858873ms for bitpack_shadow_mask
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 57.049304ms for blur
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 52.631667ms for temporal_filter
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 57.499782ms for filter_prob
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 47.997351ms for direct_opacity_sum
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 47.515203ms for filter_input
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 54.045869ms for decay_volume
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 62.152503ms for spatial_cleanup
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 56.499799ms for filter_history
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 56.912646ms for reproject_history
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 63.128299ms for raster_simple_vs
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 71.968866ms for temporal_filter2
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 63.7872ms for input_prob
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 77.663317ms for upsample
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 79.456412ms for fullres_reproject
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 61.877575ms for spatial_filter
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 79.447115ms for temporal_filter2
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 82.729034ms for temporal_filter
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 65.353099ms for trace_sun_shadow_mask.rgen
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 86.210229ms for brdf_fg
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 77.737847ms for upsample
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 77.326112ms for taa
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 1.69994ms for shadow.rmiss
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 81.614757ms for spatial_filter
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 97.094953ms for ssgi
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 95.856241ms for sweep_volume
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 89.166395ms for resolve
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 41.534612ms for raster_simple_ps
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 124.471899ms for final_blit
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 84.556696ms for light_gbuffer
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 118.074093ms for diagonal_sweep_volume
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 105.542518ms for temporal_filter
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 130.825201ms for megakernel
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 111.613429ms for trace_volume.rgen
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 3.502234ms for gbuffer.rmiss
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 162.317045ms for reflection.rgen
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 27.695586ms for gbuffer.rchit
+[2022-01-08 12:51:16][kajiya_backend::shader_compiler][TRACE] dxc took 165.033229ms for trace_diffuse.rgen
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "bitpack_shadow_mask":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "light_gbuffer":"main"
+[2022-01-08 12:51:16][hotwatch::util][DEBUG] received event 🎉: NoticeWrite(
+    "/home/rfebbo/rust_dev/kajiya/assets/rust-shaders-compiled/shaders.json",
+)
+[2022-01-08 12:51:16][hotwatch::util][DEBUG] matching against "/home/rfebbo/rust_dev/kajiya/assets/rust-shaders-compiled/shaders.json"
+[2022-01-08 12:51:16][kajiya_backend::rust_shader_compiler][INFO] Rust-GPU cargo process finished.
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "filter_history":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"post_combine::post_combine_cs"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "temporal_filter":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "taa":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"calculate_reprojection_map::calculate_reprojection_map_cs"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "sweep_volume":"main"
+[2022-01-08 12:51:16][hotwatch::util][DEBUG] received event 🎉: Write(
+    "/home/rfebbo/rust_dev/kajiya/assets/rust-shaders-compiled/shaders.json",
+)
+[2022-01-08 12:51:16][hotwatch::util][DEBUG] matching against "/home/rfebbo/rust_dev/kajiya/assets/rust-shaders-compiled/shaders.json"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"motion_blur::motion_blur"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "temporal_filter":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "temporal_filter2":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "upsample":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"extract_half_res_depth::extract_half_res_depth"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "megakernel":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "blur":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"convolve_cube::convolve_cube_cs"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "diagonal_sweep_volume":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "resolve":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "spatial_filter":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "temporal_filter":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "filter_input":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "brdf_fg":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "filter_prob":"main"
+[2022-01-08 12:51:16][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"blur::blur_cs"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "final_blit":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "decay_volume":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "spatial_filter":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"copy_depth_to_r::copy_depth_to_r_cs"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "fullres_reproject":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "direct_opacity_sum":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "filter_prob2":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"motion_blur::velocity_dilate"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "temporal_filter2":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "upsample":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "reproject_history":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"motion_blur::velocity_reduce_y"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "spatial_cleanup":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"motion_blur::velocity_reduce_x"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "ssgi":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "input_prob":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "spatial_filter":"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"sky::comp_sky_cube_cs"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"extract_half_res_gbuffer_view_normal_rgba8::extract_half_res_gbuffer_view_normal_rgba8"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"rev_blur::rev_blur_cs"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating raster pipeline Vertex:"main", Pixel:"main"
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating rt pipeline RayGen:"main", RayMiss:"main", RayMiss:"main", RayClosestHit:"main"
+[2022-01-08 12:51:17][kajiya_backend::vulkan::ray_tracing][TRACE] Creating ray tracing shader table: RayTracingShaderTableDesc { raygen_entry_count: 1, hit_entry_count: 1, miss_entry_count: 2 }
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating rt pipeline RayGen:"main", RayMiss:"main", RayMiss:"main"
+[2022-01-08 12:51:17][kajiya_backend::vulkan::ray_tracing][TRACE] Creating ray tracing shader table: RayTracingShaderTableDesc { raygen_entry_count: 1, hit_entry_count: 0, miss_entry_count: 2 }
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating rt pipeline RayGen:"main", RayMiss:"main", RayMiss:"main", RayClosestHit:"main"
+[2022-01-08 12:51:17][kajiya_backend::vulkan::ray_tracing][TRACE] Creating ray tracing shader table: RayTracingShaderTableDesc { raygen_entry_count: 1, hit_entry_count: 1, miss_entry_count: 2 }
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:17][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:17][kajiya_backend::pipeline_cache][TRACE] Creating rt pipeline RayGen:"main", RayMiss:"main", RayMiss:"main", RayClosestHit:"main"
+[2022-01-08 12:51:18][kajiya_backend::vulkan::ray_tracing][TRACE] Creating ray tracing shader table: RayTracingShaderTableDesc { raygen_entry_count: 1, hit_entry_count: 1, miss_entry_count: 2 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `buffer` of 256 bytes with an alignment of 256.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::device][TRACE] device_wait_idle
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Cube, usage: SAMPLED | STORAGE, flags: CUBE_COMPATIBLE, format: R16G16B16A16_SFLOAT, extent: [32, 32, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 6 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 49152 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Cube, usage: SAMPLED | STORAGE, flags: CUBE_COMPATIBLE, format: R16G16B16A16_SFLOAT, extent: [16, 16, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 6 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 12288 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex3d, usage: SAMPLED | STORAGE, flags: , format: R8_UNORM, extent: [64, 64, 64], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 262144 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex3d, usage: SAMPLED, flags: , format: B10G11R11_UFLOAT_PACK32, extent: [1, 1, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 512 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | COLOR_ATTACHMENT, flags: , format: A2R10G10B10_UNORM_PACK32, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | COLOR_ATTACHMENT, flags: , format: R32G32B32A32_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 62914560 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: TRANSFER_DST | SAMPLED | DEPTH_STENCIL_ATTACHMENT, flags: , format: D32_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | COLOR_ATTACHMENT, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SNORM, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R8G8B8A8_SNORM, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 3932160 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R32_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 3932160 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 1966080 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 1966080 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R8_UNORM, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 3932160 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R32_UINT, extent: [320, 360, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 491520 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R32_UINT, extent: [320, 360, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 491520 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R32G32B32A32_SFLOAT, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R8G8B8A8_SNORM, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 3932160 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 7864320 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [160, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 983040 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [160, 90, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 81920 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16_SFLOAT, extent: [160, 90, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 81920 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: R16G16B16A16_SFLOAT, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 31457280 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: B10G11R11_UFLOAT_PACK32, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 10, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 5355520 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: B10G11R11_UFLOAT_PACK32, extent: [1280, 720, 1], tiling: OPTIMAL, mip_levels: 10, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 5355520 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::vulkan::image][INFO] Creating an image: ImageDesc { image_type: Tex2d, usage: SAMPLED | STORAGE, flags: , format: B10G11R11_UFLOAT_PACK32, extent: [2560, 1440, 1], tiling: OPTIMAL, mip_levels: 1, array_elements: 1 }
+[2022-01-08 12:51:18][gpu_allocator][DEBUG] Allocating `image` of 15728640 bytes with an alignment of 1024.
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"post_combine::post_combine_cs"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"calculate_reprojection_map::calculate_reprojection_map_cs"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"motion_blur::motion_blur"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"extract_half_res_depth::extract_half_res_depth"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"convolve_cube::convolve_cube_cs"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"blur::blur_cs"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"copy_depth_to_r::copy_depth_to_r_cs"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"motion_blur::velocity_dilate"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"motion_blur::velocity_reduce_y"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"motion_blur::velocity_reduce_x"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"sky::comp_sky_cube_cs"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"extract_half_res_gbuffer_view_normal_rgba8::extract_half_res_gbuffer_view_normal_rgba8"
+[2022-01-08 12:51:18][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "rust-gpu":"rev_blur::rev_blur_cs"
+[2022-01-08 12:51:43][kajiya_backend::shader_compiler][TRACE] dxc took 37.422224ms for debug_radiance
+[2022-01-08 12:51:43][kajiya_backend::pipeline_cache][TRACE] Creating compute pipeline "debug_radiance":"main"
+[2022-01-08 14:09:58][kajiya_backend::vulkan::device][TRACE] device_wait_idle
